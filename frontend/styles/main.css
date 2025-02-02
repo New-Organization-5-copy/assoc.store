@@ -1,0 +1,20 @@
+:root {
+    --black:    rgb(0, 0, 0);
+    --blue:     rgb(0, 145, 255);
+    --darkblue: rgb(0, 0, 139);
+    --white:    rgb(255, 255, 255);
+
+    --font-size:     16px;
+    --padding-left:  40px;
+    --padding-right: 40px;
+}
+
+* {
+  font-family: sans-serif;
+  font-weight: 300;
+  margin:  0;
+  padding: 0;
+
+}
+
+
