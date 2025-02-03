@@ -1,17 +1,27 @@
 :root {
-    --black:    rgb(0, 0, 0);
-    --blue:     rgb(0, 145, 255);
-    --darkblue: rgb(0, 0, 139);
-    --white:    rgb(255, 255, 255);
+    --black:        rgb(0, 0, 0);
+    --light-grey:   rgb(193, 193, 193);
+    --blue:         rgb(0, 145, 255);
+    --light-blue:   rgb(70, 170, 240);
+    --darkblue:     rgb(0, 0, 139);
+    --white:        rgb(255, 255, 255);
 
-    --font-size:     16px;
-    --padding-left:  40px;
-    --padding-right: 40px;
+    --font-size:       1.1vw;
+    --padding-left:    2vw;
+    --padding-right:   2vw;
+    --padding-top:     2vw;
+    --padding-bottom:  2vw;
+
+    --margin-left:     1vw;
+    --margin-right:    1vw;
+    --margin-top:      1vw;
+    --margin-bottom:   1vw;
 }
 
 * {
   font-family: sans-serif;
-  font-weight: 300;
+  font-weight: 100;
+  line-height:1.5;
   margin:  0;
   padding: 0;
 
