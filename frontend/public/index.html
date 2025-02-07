@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/pages/index.css">
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!--  swiper.js   -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="../scripts/pages/index.js" async></script>
     <title>ООО "АССОЦИАЦИЯ"</title>
 </head>
 <body>
@@ -28,5 +34,24 @@
             </ul>
         </nav>
     </header>
+
+    <!-- swiper.js -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="../src/assets/images/slider-image-1.png" alt=""><div class="swiper-text-item">Комплексное обеспечение спецодеждой, спецобувью и СИЗ</div></div>
+          <div class="swiper-slide"><img src="../src/assets/images/slider-image-2.jpg" alt=""><div class="swiper-text-item">Комплексное обеспечение спецодеждой, спецобувью и СИЗ</div></div>
+          <div class="swiper-slide"><img src="../src/assets/images/slider-image-3.jpg" alt=""><div class="swiper-text-item">Комплексное обеспечение спецодеждой, спецобувью и СИЗ</div></div>
+          <div class="swiper-slide"><img src="../src/assets/images/slider-image-4.jpg" alt=""><div class="swiper-text-item">Комплексное обеспечение спецодеждой, спецобувью и СИЗ</div></div>
+          <div class="swiper-slide"><img src="../src/assets/images/slider-image-5.jpg" alt=""><div class="swiper-text-item">Комплексное обеспечение спецодеждой, спецобувью и СИЗ</div></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
 </body>
 </html>

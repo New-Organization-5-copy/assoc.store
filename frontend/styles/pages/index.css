@@ -59,3 +59,29 @@ ul li a {
 ul li a:hover {
     background-color: var(--light-blue);
 }
+
+/*swiper.js - слайдер на странице*/
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-slide .swiper-text-item{
+    display:    flex;
+    position:   absolute;
+    top:        50%;
+    left:       20%;
+    right:      20%;
+    font-size:  3vw;
+    color:      var(--white);
+    text-align: center;
+}
+
+
+.swiper-button-prev, .swiper-button-next {
+    color: var(--white) !important;
+}
+
