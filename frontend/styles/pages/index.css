@@ -1,6 +1,6 @@
 header .container{
-    font-size:  var(--font-size);
-    margin-top: var(--margin-top);
+    font-size:       var(--font-size);
+    margin-top:      var(--margin-top);
     display:         flex;
     position:        relative;
     justify-content: center;
@@ -122,28 +122,38 @@ ul li a:hover {
   }
 
   .hiddenMenu {
-    border-radius: 5px;
-    position:   absolute;
-    color:      transparent;
-    left:       0px;
-    top:        0px;
-    width:      100%;
-    height:     100%;
-    transition: 0.4s;
+    font-size:      calc( var(--font-size) );
+    display:        flex;
+    flex-direction: column;
+    border-radius:  5px;
+    display:        flex;
+    position:       absolute;
+    color:          transparent;
+    left:           0px;
+    top:            0px;
+    width:          100%;
+    height:         100%;
+    transition:     0.4s;
   }
   
   .hiddenMenu a {
+    padding:         calc(var(--padding) / 2) /**/ calc(var(--padding) * 2);
     color:           transparent;
     text-decoration: none;
     transition:      0.4s;
+    height:          min-content;
   } 
  
   .catalog-item:hover .hiddenMenu  {
     background-color: var(--white);
-    color:            var(--black);
+    color:            var(--blue);
     box-shadow:       var(--box-shodow-small);
   }
 
   .catalog-item:hover .hiddenMenu a {
-    color:            var(--black);
+    color:            var(--blue);
+  }
+
+  .hiddenMenu a:hover {
+    color:          black !important;
   }
