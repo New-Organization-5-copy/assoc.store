@@ -184,3 +184,20 @@ ul li a:hover {
   height:     100%;
   object-fit: cover;
 }
+
+.partners-container {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.partners-item {
+  width:  33%;
+  height: auto;
+}
+
+.partners-item img {
+  width:      100%;
+  height:     100%;
+  object-fit: fill;
+}
